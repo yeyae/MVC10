@@ -1,0 +1,27 @@
+enum : 직원번호
+ename : 직원이름
+
+create table employee_test(
+	enum number,
+	ename varchar2(30),
+	deptno number,
+	salary number
+	);
+	
+Class Employee
+int empNo 
+String eName 
+int deptNo 
+int salary
+생성자 게터/세터
+
+selectOne : 직원번호 조건으로 직원 모든 정보 조회
+selectAll : 모든 직원 정보 조회
+deleteEm
+updateEm 
+
+	
+excuteUpate : insert, update, delete
+excuteQuery : select
+excute : ddl (create alter drop)
+

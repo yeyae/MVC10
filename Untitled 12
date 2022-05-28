@@ -1,0 +1,14 @@
+create table member(
+	num number(10) primary key,
+	id varchar2(30) not null unique,
+	pw varchar2(50) not null,
+	name varchar2(20) not null,
+	email varchar2(30) not null unique,
+	regDate date default sysdate
+);
+
+create sequence member_seq
+start with 1
+increment by 1
+maxvalue 999999
+cycle;
